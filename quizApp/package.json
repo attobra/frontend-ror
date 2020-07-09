@@ -1,0 +1,11 @@
+{
+  "name": "Repo of front end Projects",
+  "version": "1.0.0",
+  "description": "This will load javascript projects",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
