@@ -70,6 +70,8 @@
         $('#projects').tabs();
         $('ul').sortable({axis:'x', containment:'#projects'});
         $('ol').sortable({axis:'y', containment:'#projects'});
+
+        
 //EVENT delegation: to delete the tasks.
 //We need to specify the parent #projects then on  with click the event to be handled, and the element on which it should work
         $("#projects").on("click", "input[type=checkbox]", function(){

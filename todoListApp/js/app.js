@@ -121,6 +121,6 @@ list.addEventListener("click", function(event){
     removeToDo(element);
   }
 
-  //add item to local storage; (this code must be added everywhere hte list array is updated)
+  //add item to local storage; (this code must be added everywhere the list array is updated)
   localStorage.setItem("TODO", JSON.stringify(LIST));
 });
